@@ -66,6 +66,27 @@
     background-color: var(--color-crimson);
     transform: scale(1.05);
   }
+
+  .custom__button-bg {
+    background-color: #a1818e;
+      color: var(--color-crimson);
+      font-family: var(--font-base);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 28px;
+      font-size: 16px;
+      padding: 0.5rem 2rem;
+      border-radius: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .custom__button-bg:hover {
+    background-color: #FEE4F1;
+    color: #22435f;
+    transform: scale(1.05);
+  }
   
 
   .p__cormorant {
@@ -91,7 +112,7 @@
   
   .headtext__cormorant {
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: #22435f;
     font-size: 64px;
     line-height: 83.2px;
     letter-spacing: 0.04em;
