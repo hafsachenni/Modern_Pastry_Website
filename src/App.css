@@ -9,7 +9,7 @@
   }
   
   .app__bg {
-    background: url('./assets/pink-bg.jpg');
+    background: #ebebeb;
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -68,8 +68,8 @@
   }
 
   .custom__button-bg {
-    background-color: #a88f99;
-      color: var(--color-crimson);
+    background-color: #cab8a9;
+      color: white;
       font-family: var(--font-base);
       font-weight: 700;
       letter-spacing: 0.04em;
@@ -87,11 +87,42 @@
     color: #22435f;
     transform: scale(1.05);
   }
+
+  .custom__button-menu {
+    background-color: #cab8a9;
+      color: black;
+      font-family: var(--font-base);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 28px;
+      font-size: 16px;
+      padding: 0.5rem 2rem;
+      border-radius: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .custom__button-menu:hover {
+    background-color: #FEE4F1;
+    color: #22435f;
+    transform: scale(1.05);
+  }
   
 
   .p__cormorant {
     font-family: var(--font-base);
     color: var(--color-white);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+  }
+  .p__cormorant-menu {
+    font-family: var(--font-base);
+    color: black;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: capitalize;

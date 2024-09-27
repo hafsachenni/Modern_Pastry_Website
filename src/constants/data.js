@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const cakes = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Wedding Cake',
+    price: '$99',
+    tags: 'Vanilla sponge | Fondant | Exquisite decorations',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Sweetheart Delight Cake',
+    price: '$75',
+    tags: 'Rich chocolate layers | Personalized message | Gold accents',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Carrot Cake',
+    price: '$24',
+    tags: 'Carrots | Walnuts | Cinnamon',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Lemon Blueberry Layer Cake',
+    price: '$27',
+    tags: 'Lemon zest | Blueberries | Cream cheese',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Chocolate Ganache Cake',
+    price: '$25',
+    tags: 'Dark chocolate | Cream | Vanilla',
   },
 ];
 
-const cocktails = [
+const frenchPastry = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Almond Croissant',
+    price: '$4',
+    tags: 'Almond cream | Butter | Flaky pastry | Powdered sugar',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Macarons",
+    price: '$3',
+    tags: 'Almond flour | Buttercream filling | Vanilla extract',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Eclair',
+    price: '$4',
+    tags: 'Choux pastry | Pastry cream | Chocolate glaze',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Profiteroles',
+    price: '$5',
+    tags: 'Choux pastry | Pastry cream | Chocolate sauce | Whipped cream',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Tarte Tatin',
+    price: '$5',
+    tags: 'Apples | Caramel | Puff pastry | Vanilla ice cream',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { cakes, frenchPastry, awards };
