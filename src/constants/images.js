@@ -8,7 +8,7 @@ import flower from '../assets/flower.png';
 import pastrychef from '../assets/pastrychef.jpg';
 import quotation from '../assets/quotation.png';
 import signature from '../assets/sign.png';
-
+import poster from '../assets/poster.jpg';
 export default {
   cake,
   glazed,
@@ -19,5 +19,6 @@ export default {
   flower,
   pastrychef,
   quotation,
-  signature
+  signature,
+  poster
 };

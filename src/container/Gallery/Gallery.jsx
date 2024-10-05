@@ -3,7 +3,8 @@ import React from 'react'
 const Gallery = () => {
   return (
     <div>
-      htyty
+      frjfjj
+      <p>hello new code</p>
     </div>
   )
 }
