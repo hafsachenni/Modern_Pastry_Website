@@ -9,6 +9,7 @@ import pastrychef from '../assets/pastrychef.jpg';
 import quotation from '../assets/quotation.png';
 import signature from '../assets/sign.png';
 import poster from '../assets/poster.jpg';
+import laurels from '../assets/laurels.jpg';
 export default {
   cake,
   glazed,
@@ -20,5 +21,6 @@ export default {
   pastrychef,
   quotation,
   signature,
-  poster
+  poster,
+  laurels
 };
