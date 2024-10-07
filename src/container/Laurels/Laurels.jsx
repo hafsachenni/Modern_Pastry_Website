@@ -8,10 +8,10 @@ import { GiLaurelCrown } from "react-icons/gi";
 
 const AwardCard = ({award: {title, subtitle}}) => (
   <div className='app__laurels_awards-card'>
-    <GiLaurelCrown style={{color: '#8b7b40'}} className='app__laurels_awards-card_icons'/>
+    <GiLaurelCrown style={{color: 'gray'}} className='app__laurels_awards-card_icons'/>
 
     <div className='app__laurels_awards-card_content'>
-      <p className="p__cormorant" style={{color: 'black'}} >{title}</p>
+      <p className="p__cormorant" style={{color: '#22435f'}} >{title}</p>
       <p className="p__opensans" style={{color: 'black'}}>{subtitle}</p>
     </div>
 
@@ -24,11 +24,11 @@ const Laurels = () => {
     <div className='app__bg app__wrapper section__padding' id='awards'>
       <div className='app__wrapper_info'>
         <SubHeadingmenu title='Awards & recognition'/> 
-        <h1 className='headtext__cormorant'>Our Laurels</h1>
+        <h1 className='headtext__cormorant' style={{color: '#22435f'}}>Our Laurels</h1>
 
 
         <div className='app__laurels_awards'>
-          {data.awards.map((award) => 
+          {data.awards.map((award) =>
             <AwardCard award={award} key={award.title} />
           )}
 

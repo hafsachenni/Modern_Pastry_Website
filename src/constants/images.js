@@ -14,6 +14,9 @@ import gallery1 from '../assets/gallery1.webp';
 import gallery2 from '../assets/gallery2.webp';
 import gallery3 from '../assets/gallery3.webp';
 import gallery4 from '../assets/gallery4.webp';
+import findus from '../assets/findus.webp';
+
+
 export default {
   cake,
   glazed,
@@ -30,5 +33,6 @@ export default {
   gallery1,
   gallery2,
   gallery3,
-  gallery4
+  gallery4,
+  findus
 };
