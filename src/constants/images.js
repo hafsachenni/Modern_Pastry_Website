@@ -10,6 +10,10 @@ import quotation from '../assets/quotation.png';
 import signature from '../assets/sign.png';
 import poster from '../assets/poster.jpg';
 import laurels from '../assets/laurels.jpg';
+import gallery1 from '../assets/gallery1.webp';
+import gallery2 from '../assets/gallery2.webp';
+import gallery3 from '../assets/gallery3.webp';
+import gallery4 from '../assets/gallery4.webp';
 export default {
   cake,
   glazed,
@@ -22,5 +26,9 @@ export default {
   quotation,
   signature,
   poster,
-  laurels
+  laurels,
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4
 };
