@@ -3,7 +3,7 @@ import glazed from '../assets/glazed.png';
 import bordure from '../assets/bordure.svg';
 import gletter from '../assets/G.png';
 import borduredark from '../assets/borduredark.svg';
-import cake2 from '../assets/cake2.png';
+import cake2 from '../assets/cake2.webp';
 import flower from '../assets/flower.png';
 import pastrychef from '../assets/pastrychef.jpg';
 import quotation from '../assets/quotation.png';
