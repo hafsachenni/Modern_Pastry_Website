@@ -1,7 +1,7 @@
 .app__newsletter {
     padding: 2rem 4rem;
-    border: 3px solid black;
-    background: #22435f;
+    border: 2px solid #FEE4F1;
+    background: black;
 }
 
 .app__newsletter-heading {

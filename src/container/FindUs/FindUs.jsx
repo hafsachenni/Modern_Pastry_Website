@@ -5,7 +5,7 @@ import {images} from '../../constants';
 
 const FindUs = () => {
   return (
-    <div id='contact' className='app__bg app__wrapper section__padding'>
+    <div id='contact' className='app__bg app__wrapper  section__padding'>
       <div className='app__wrapper_info'>
         <SubHeadingmenu title='Contact'/>
         <h1 className="headtext__cormorant" style={{marginBottom: '3rem'}}>Find Us</h1>

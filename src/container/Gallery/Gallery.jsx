@@ -26,7 +26,7 @@ const Gallery = () => {
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRfrc}>
-          {[images.gallery3, images.gallery4, images.gallery2, images.gallery1].map((image, index) => (
+          {[images.gallery2, images.gallery4, images.gallery1, images.gallery3].map((image, index) => (
             <a href='https://www.instagram.com/pastrycultureca/' target='_blank'>
             <div className='app__gallery-images_card flex__center' key={index + 1}>
               <img src={image} alt='gallery imgs'/>
