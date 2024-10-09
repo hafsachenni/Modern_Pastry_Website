@@ -55,7 +55,7 @@ npm install
 ```bash
 npm start
 ```
-- Then, the development server will be started at http://localhost:3000
+(Then, the development server will be started at http://localhost:3000)
 
 ## Contributors:
 Hafsa Chenni[https://github.com/hafsachenni]
