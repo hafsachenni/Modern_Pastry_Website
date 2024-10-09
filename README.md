@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Glazed - Modern Pastry Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Glazed** is a modern pastry website built with React. It offers an elegant user experience with a focus on showcasing freshly baked goods, customizable orders, and an intuitive design. The platform utilizes Framer Motion for animations and React Router for seamless navigation, providing users with an enjoyable browsing experience.
 
-## Available Scripts
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation & Setup](#installation--setup)
+4. [Contributors](#contributors)
+5. [License](#license)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+**Glazed** is designed to cater to pastry enthusiasts, allowing users to explore and order a variety of baked goods with ease. The website includes the following sections:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Landing Page**: An inviting introduction to Glazed, featuring a hero section that highlights the brand, popular pastries, and calls to action.
+- **About Us**: Information about the pastry’s history, mission, and values.
+- **Menu Page**: A complete display of the entire pastry menu, where users can view, customize, and add items to their cart.
+- **Checkout & Payment Page**: A secure and user-friendly interface for finalizing orders and processing payments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design**: Fully responsive layout that adapts to all screen sizes.
+- **Interactive UI**: Engaging animations and smooth transitions using Framer Motion.
+- **Customizable Orders**: Users can personalize their pastry selections according to their preferences.
+- **React Router**: Efficient management of navigation between different pages without full reloads.
+- **Intuitive Navigation**: Easy-to-use interface guiding users through the ordering process.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation & Setup
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js (v14 or above)
+- npm or yarn package manager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/hafsachenni/modern_pastry_website.git
+   ```
 
-### `npm run eject`
+2. **Navigate to the project directory**
+    ```bash
+    cd modern_pastry_website
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install Dependencies**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Start the Development Server**
+```bash
+npm start
+```
+- Then, the development server will be started at http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors:
+Hafsa Chenni[https://github.com/hafsachenni]
