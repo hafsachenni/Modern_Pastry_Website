@@ -3,6 +3,8 @@ import './Laurels.css';
 import {SubHeadingmenu} from '../../components';
 import { images, data } from '../../constants';
 import { GiLaurelCrown } from "react-icons/gi";
+import {motion} from 'framer-motion';
+import {fadeIn} from '../../utils/animations';
 
 
 
@@ -22,7 +24,12 @@ const AwardCard = ({award: {title, subtitle}}) => (
 const Laurels = () => {
   return (
     <div className='app__bg app__wrapper section__padding' id='awards'>
-      <div className='app__wrapper_info'>
+      <motion.div
+      variants={fadeIn('right', 0.2)}
+      initial='hidden'
+      whileInView={'show'}
+      viewport={{once: false, amount: 0.7}}
+      className='app__wrapper_info'>
         <SubHeadingmenu title='Awards & recognition'/> 
         <h1 className='headtext__cormorant' style={{color: '#22435f'}}>Our Laurels</h1>
 
@@ -33,11 +40,15 @@ const Laurels = () => {
           )}
 
         </div>
-      </div>
-      <div className='app__wrapper_img'>
+      </motion.div>
+      <motion.div
+      variants={fadeIn('left', 0.2)}
+      initial='hidden'
+      whileInView={'show'}
+      viewport={{once: false, amount: 0.7}}
+      className='app__wrapper_img'>
         <img src={images.laurels} alt='laurels'/>
-
-      </div>
+      </motion.div>
       
     </div>
   )

@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Spinner from './Spinner/LoadingSpinner';
+import BackToTop from './BackToTop/BackToTop';
 
 export {
   AboutUs,
@@ -19,5 +20,6 @@ export {
   Intro,
   Laurels,
   SpecialMenu,
-  Spinner
+  Spinner,
+  BackToTop
 };

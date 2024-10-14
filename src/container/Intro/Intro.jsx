@@ -4,12 +4,14 @@ import {images, meal} from '../../constants';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 
+
 const Intro = () => {
   const [isvideoplaying, setIsVideoPalying] = useState(false);
   const videoRef = useRef();
 
   return (
-    <div className='app__video'>
+    <div
+    className='app__video'>
       <video
         ref={videoRef}
         src={meal}

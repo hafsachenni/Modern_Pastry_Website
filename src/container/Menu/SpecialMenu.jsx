@@ -3,6 +3,8 @@ import {images} from '../../constants';
 import {data} from '../../constants';
 import './SpecialMenu.css';
 import {SubHeadingmenu, MenuItem} from '../../components';
+import {motion} from 'framer-motion';
+import {fadeIn} from '../../utils/animations';
 
 const SpecialMenu = () => {
   return (
@@ -12,7 +14,12 @@ const SpecialMenu = () => {
         <h1 className="headtext__cormorant">Finest Pastry Indulgences</h1>
       </div>
 
-      <div className='app__specialMenu-menu'>
+      <motion.div
+      variants={fadeIn('up', 0.2)}
+      initial='hidden'
+      whileInView={'show'}
+      viewport={{once: false, amount: 0.7}}
+      className='app__specialMenu-menu'>
         <div className='app__specialMenu-menu_cakes flex__center'>
           <p className='app__specialMenu-menu_heading'>Cakes</p>
           <div className='app__specialMenu-menu_items'>
@@ -38,7 +45,7 @@ const SpecialMenu = () => {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div style={{marginTop: 10}}>
         <button className='custom__button-menu' type='button'>View More</button>

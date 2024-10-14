@@ -3,6 +3,8 @@ import { images } from '../../constants';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { FooterOverlay, Msgbox } from '../../components';
 import './Footer.css';
+import {fadeIn} from '../../utils/animations';
+import {motion} from 'framer-motion';
 
 const Footer = () => {
   return (
@@ -11,7 +13,12 @@ const Footer = () => {
       <Msgbox/>
 
       
-      <div className='app__footer-links'>
+      <motion.div
+      variants={fadeIn('up', 0.2)}
+      initial='hidden'
+      whileInView={'show'}
+      viewport={{once: false, amount: 0.7}}
+      className='app__footer-links'>
         <div className='app__footer-links_contact'>
           <h1 className="app__footer-headtext" style={{color: 'white'}}>Contact Us</h1>
           <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
@@ -37,7 +44,7 @@ const Footer = () => {
         <p className="p__opensans">Saturday-Sunday:</p>
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>
-      </div>
+      </motion.div>
 
       <div className="footer__copyright">
         <p className="p__opensans">2024 Glazed. All Rights reserved.</p>
