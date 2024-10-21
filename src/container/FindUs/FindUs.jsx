@@ -31,7 +31,7 @@ const FindUs = () => {
       whileInView={'show'}
       viewport={{once: false, amount: 0.7}}
       className='app__wrapper_img'>
-        <img src={images.findus} alt='visit us'/>
+        <img src={images.findus} alt='visit us' style={{borderTopLeftRadius: '120px'}}/>
       </motion.div>
     </div>
   )

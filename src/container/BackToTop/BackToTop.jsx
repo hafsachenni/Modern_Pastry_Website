@@ -20,7 +20,7 @@ const BackToTop = () => {
             scrollProgress.addEventListener('click', () => {
                 document.documentElement.scrollTop = 0;
             });
-            scrollProgress.style.background = `conic-gradient(#22435f ${scrollValue}%, #fff ${scrollValue}%)`;
+            scrollProgress.style.background = `conic-gradient(#fff ${scrollValue}%, #22435f ${scrollValue}%)`;
         };
         window.onscroll = calculateScroll;
         window.onload = calculateScroll;

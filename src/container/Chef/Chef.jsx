@@ -14,7 +14,7 @@ const Chef = () => {
       whileInView={'show'}
       viewport={{once: false, amount: 0.7}}
       className='app__wrapper_img app__wrapper_img-reverse'>
-        <img src={images.pastrychef} alt='pastry chef' style={{borderRadius:'9px'}}/>
+        <img src={images.pastrychef} alt='pastry chef' style={{borderTopLeftRadius: '120px', borderBottomRightRadius: '120px' }}/>
       </motion.div>
       <motion.div
       variants={fadeIn('left', 0.2)}
